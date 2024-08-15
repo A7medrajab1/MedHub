@@ -1,0 +1,173 @@
+/*debugging*/
+.dbox {
+    width: inherit;
+    height: inherit;
+    background-color: #FF5A5F;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    
+}
+/*debugging*/
+
+/*COLORS*/
+:root {
+    --bg-blue: #05A8AA;
+    --bg-white: #EEFEFF;
+    --med-black: #08090A;
+    --med-field: #859E9E;
+    --med-green: #2BC016;
+    --med-red: #BB0A21;
+}
+/*COLORS*/
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    height: max-content;
+    background: linear-gradient(to top, var(--bg-blue), var(--bg-white));
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.med-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--bg-blue);
+}
+
+.std-text {
+    font-size: 22px;
+    color: var(--med-black);
+}
+
+.std-small-text {
+    font-size: 18px;
+    color: var(--med-black);
+}
+
+.std-tip {
+    font-size: 22px;
+    color: var(--med-field);
+    font-style: italic;
+}
+
+.err {
+    color: var(--med-red);
+}
+.succ {
+    color: var(--bg-blue);
+}
+
+input, select, textarea, button, .std-msg-field {
+    padding: .5em;
+    box-sizing: border-box;
+}
+
+input, select, textarea, .std-msg-field {
+    opacity: 0.8;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--med-field);
+    transition: opacity 0.4s ease-in-out;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--med-field);
+}
+
+input:focus, select:focus, textarea:focus {
+    opacity: 1;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.ok-button {
+    background-color: var(--med-green);
+    cursor: pointer;
+}
+
+.no-button {
+    background-color: var(--med-red);
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    gap: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 95%;
+    height: 3px;
+    background-color: var(--bg-blue);
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.navbar .right-side {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 0;
+        gap: 20px;
+    }
+
+    .navbar .med-line {
+        display: none;
+    }
+
+    .navbar::after {
+        width: 100%;
+    }
+
+    .med-title {
+        font-size: 20px;
+    }
+    
+    .std-text {
+        font-size: 15px;
+    }
+
+    .std-small-text {
+        font-size: 13px;
+    }
+    
+    .std-tip {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar h1 {
+        display: none;
+    }
+}

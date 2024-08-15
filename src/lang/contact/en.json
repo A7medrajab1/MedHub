@@ -1,0 +1,11 @@
+{
+    "conn" :"Contact" ,
+    "home" :"Home",
+    "tit" :"All Messages are directly sent to all staff members",
+    "suc" : "Success!",
+    "has" :"Message has been sent.",
+    "sub" : "Title/Subject",
+    "mess" :"Content / Message",
+    "send" : "Send Message",
+    "final" : "Please be patient while our staff members respond to your message as fast as they can!"
+}

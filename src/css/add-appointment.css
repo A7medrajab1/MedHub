@@ -1,0 +1,86 @@
+ *{
+    overflow: hidden;
+ }
+ 
+ .container{
+    position: relative;
+    top:200px;
+    left: 350px;
+    
+} 
+
+
+
+.language-form {
+    width: 300px; 
+    text-align: center;
+}
+
+
+form {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+    
+}
+
+input, textarea, select, button {
+    width: 250px;
+}
+
+.language-form {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.language-form select {
+    width: 100px;
+}
+
+.register {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.inp {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.inp label {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.inp .cont {
+    position: relative;
+    right: 0;
+}
+
+.submit {
+    margin: auto;
+}
+.ok-button{
+    margin-left:40px;
+    margin-top:40px;
+}
+@media screen and (max-width: 800px) {
+    main {
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    select, input {
+        width: 200px;
+    }
+
+    .register {
+        font-size: 12px;
+    }
+}

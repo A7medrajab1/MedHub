@@ -1,0 +1,20 @@
+{
+    "Home" : "Home",
+    "Add" : "Add",
+    "Email" :"Email",
+    "user_type" : "User Type",
+    "admin" : "Admin",
+    "staff" : "Staff Member",
+    "doctor" : "Doctor",
+    "name" : "Name",
+    "phone" : "Phone",
+    "year" : "Year Of Bearth Day",
+    "address" : "Address",
+    "gender" : "Gender",
+    "male" : "Male" ,
+    "fmale" : "Female",
+    "speciality" : "Speciality",
+    "type1" : "Type 1",
+    "type2" : "Type 2",
+    "add" :"Add User"
+}

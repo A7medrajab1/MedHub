@@ -1,0 +1,10 @@
+{
+    "add" : "Add User",
+    "gene" :"Generate Report",
+    "ser" : "Search By ID/Name",
+    "name" :"Full Name",
+    "gen" :"Age",
+    "age" :"Gender",
+    "del" :"Delete User",
+    "inform" :"user's informations"
+}

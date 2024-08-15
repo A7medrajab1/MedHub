@@ -1,0 +1,9 @@
+{
+    "main_title" : "Welcome to MedHub Patient Care System",
+    "user_t" : "User Type",
+    "user_opt" : ["Patient" , "Staff Member" , "Doctor" , "Administrator"],
+    "user_id" : "Email",
+    "pword" : "Password",
+    "submit" : "Submit",
+    "register_tip" : "click here if you want to register as a new patient"
+}

@@ -1,0 +1,19 @@
+{
+    "generate" : "Generate",
+    "home" : "Home",
+    "admin" : "Admin Full's Name",
+    "fain" :"Financial Report :",
+    "visit" : "Number Of Visits :",
+    "average" : "Average Bill :",
+    "total" : "Total Revenue:",
+    "userbase" : "Userbase Report",
+    "users" : "Total Nimber Of Users:",
+    "patients" : "Number Of Patients:",
+    "staff" : "Number Of Staff:",
+    "doctor" : "Number Of Doctors:",
+    "admins" : "Number Of Admins:",
+    "per" : "Performance Report",
+    "doc" :"Doctor With Most Visits:",
+    "print" : "Print Report"
+
+}

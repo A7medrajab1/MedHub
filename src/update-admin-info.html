@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>update admin's information</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/update-admin-info.css">
+</head>
+<body>
+    <main>
+        <form>
+        <div class="left">
+            <div class="put">
+                <label for="email" class="std-text">Email</label>
+                <input type="email" id="email" name="userID" value="" class="login"><br>
+            </div>
+            <div class="put">
+                <label for="user type">User type</label>
+                <select id="user type" name="user type">
+                    <option>choose..</option>
+                    <option value="A">admin</option>
+                    <option value="S">staff</option>
+                    <option value="D">doctor</option>
+                </select>
+            </div>
+            <div class="put">
+                <label for="name" class="std-text">Name</label>
+                <input type="text" id="name" name="name" value="" class="login"><br>
+            </div>
+            <div class="put">
+                <label for="phone">Phone number</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+        </div>
+        <div class="right">
+            <div class="put">
+                <label for="year of birth" class="std-text">Year of birth</label>
+                <input type="text" id="year of birth" name="year of birth" value="" class="login"><br>
+            </div>
+            <div class="put">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address">
+            </div>
+            <!-- <div class="put">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option>choose..</option>
+                    <option value="m">male</option>
+                    <option value="f">female</option>
+                </select>
+            </div> -->
+            <div class="put">
+                <label for="speciality">Speciality</label>
+                <input type="text" id="speciality"  value="" class="login"><br>
+            </div>
+        </div>
+            <br>
+            <input type="submit" class="ok-button submit" value="submit">  
+        </form>
+    </main> 
+</body>
+</html>

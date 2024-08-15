@@ -1,0 +1,8 @@
+{
+    "patient" : "Patient",
+    "con" : "Contact",
+    "past" :" Past Appointments",
+    "ser" : "Search Doctor /Speciality",
+    "res" : "Reserve",
+    "not" : "No Appointments Found!"
+}

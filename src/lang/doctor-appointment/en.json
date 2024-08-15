@@ -1,0 +1,16 @@
+{
+    "tit" : "Doctor Appointments",
+    "doc" : "Doc's Full Name",
+    "med" : "Medical History",
+    "nomed" : "No Medical History",
+    "patient" : "Full Patient Info",
+    "dis" : "Disease information",
+    "note" : "Note To Patient",
+    "tre" : "Treatment",
+    "td" : "Tittle Of Disease",
+    "cn" : "Content",
+    "bill" : "Bill the patient after the appointment",
+    "coast" : "Print",
+    "send" :"Bill"
+
+}
